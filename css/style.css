@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #391145;
+    font-family: "Inter";
+    font-size: 15px;
+    width: 100vw;
+}
+.body{
+    margin: 0 auto;
+    width: 1440px;
+}
+header{
+    height: 69px;
+}
+.mx-auto{
+    margin: 0 auto;
+}
+li{
+    list-style-type: none;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.logo{
+    height: 51px;
+    width: 40px;
+}
+ul li{
+    margin: auto 30px;
+}
+main{
+    background-color: #E9DCD6;
+}
+.marked{
+    text-align: center;
+    flex-direction: column;
+    font-weight: 700;
+    justify-content: center;
+    height: 48px;
+    width: 90px;
+    background-color: #6DD0FE;
+    border-radius: 24px;
+}
+.emptyField{
+    height: 116px;
+}
+.main{
+    height: 720px;
+    width: 100vw;
+    background-image: url('../img/backgroundMain.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text-center{
+    text-align: center;
+}
+.main-text{
+    padding-top: 64px;
+    font-weight: 400;
+    font-size: 70px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.marked-button{
+    width: 100vw;
+    justify-content: center;
+}
+.marked-button button{
+    border: 0;
+    background-color: #6DD0FE;
+    border-radius: 30px;
+    width: 255px;
+    height: 60px;
+}
+.column-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
